@@ -29,6 +29,26 @@ article section .panel-body h4 {
     background: #e3e3e3;
     padding: 0;
 }
-.bx-wrapper{
+
+.bx-wrapper {
     margin: 0px auto 15px;
+}
+
+.bx-wrapper .bx-prev {
+    left: -20px;
+}
+
+.bx-wrapper .bx-next {
+    right: -20px;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: middle;
+    float: none !important;
 }
